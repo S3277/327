@@ -435,7 +435,7 @@ function App() {
                   <circle cx="30" cy="10" r="3" fill="currentColor"/>
                 </svg>
                 <h3>Website + SEO</h3>
-                <p><strong>Turn visitors into paying customers.</strong> Our websites don't just look pretty - they're conversion machines that capture leads and drive sales 24/7.</p>
+                <p><strong>Transform visitors into customers automatically.</strong> Our intelligent sales funnels guide your prospects step by step to purchase, without manual intervention.</p>
                 <div className="feature-glow"></div>
               </div>
               
@@ -445,8 +445,8 @@ function App() {
                   <path d="M20 30L27 37L42 22" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                   <path d="M10 20L15 15M50 20L45 15M10 40L15 45M50 40L45 45" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
-                <h3>Sales Funnel Automatisées</h3>
-                <p><strong>Transformez vos visiteurs en clients automatiquement.</strong> Nos funnels de vente intelligents guident vos prospects étape par étape jusqu'à l'achat, sans intervention manuelle.</p>
+                <h3>Automated Sales Funnels</h3>
+                <p><strong>Transform visitors into customers automatically.</strong> Our intelligent sales funnels guide your prospects step by step to purchase, without manual intervention.</p>
                 <div className="feature-glow"></div>
               </div>
               
@@ -470,8 +470,8 @@ function App() {
                   <circle cx="35" cy="20" r="2" fill="currentColor"/>
                   <path d="M25 50H35" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
-                <h3>Solutions IA Personnalisées</h3>
-                <p><strong>Éliminez les points de friction de votre entreprise.</strong> Nous analysons vos processus et créons des solutions IA sur mesure pour automatiser vos tâches répétitives et optimiser vos opérations.</p>
+                <h3>Custom AI Solutions</h3>
+                <p><strong>Eliminate your business friction points.</strong> We analyze your processes and create custom AI solutions to automate repetitive tasks and optimize your operations.</p>
                 <div className="feature-glow"></div>
               </div>
             </div>
@@ -509,22 +509,22 @@ function App() {
                 <div className="price">1000$-1500$</div>
                 <ul>
                   <li>Everything in Website Only</li>
-                  <li>Sales funnel automatisé</li>
+                  <li>Automated sales funnel</li>
                   <li>Email marketing automation</li>
                   <li>Lead nurturing sequences</li>
                   <li>2 revisions included</li>
                   <li>7-day timeline</li>
                 </ul>
                 <button className="btn btn-primary pricing-cta" data-budget="Website + Sales Funnel">
-                  <span data-en="Order Website + Funnel — $1000+" data-fr="Commander Website + Funnel — 1000$+">Commander Website + Funnel — 1000$+</span>
+                  <span>Order Website + Funnel — $1000+</span>
                   <div className="btn-shine"></div>
                 </button>
                 <div className="card-glow"></div>
               </div>
               
               <div className="pricing-card best-value hover-lift pulse" data-budget="AI Solution Sur Mesure">
-                <h3>AI Solution Sur Mesure</h3>
-                <div className="price">Sur devis</div>
+                <h3>Custom AI Solution</h3>
+                <div className="price">Contact for quote</div>
                 <ul>
                   <li>Website + Sales funnel</li>
                   <li>Custom AI chatbot/agents</li>
@@ -532,10 +532,10 @@ function App() {
                   <li>Analytics dashboard</li>
                   <li>Training & onboarding</li>
                   <li>4 revisions included</li>
-                  <li>Timeline personnalisé</li>
+                  <li>Custom timeline</li>
                 </ul>
                 <button className="btn btn-primary pricing-cta" data-budget="AI Solution Sur Mesure">
-                  <span data-en="Get Custom Quote" data-fr="Demander un devis">Demander un devis</span>
+                  <span>Get Custom Quote</span>
                   <div className="btn-shine"></div>
                 </button>
                 <div className="card-glow premium"></div>
@@ -636,9 +636,9 @@ function App() {
               <h4>Services</h4>
               <ul>
                 <li><a href="#features">Website Development</a></li>
-                <li><a href="#features">Sales Funnel Automatisées</a></li>
+                <li><a href="#features">Automated Sales Funnels</a></li>
                 <li><a href="#features">AI Agents & Chatbots</a></li>
-                <li><a href="#features">Solutions IA Personnalisées</a></li>
+                <li><a href="#features">Custom AI Solutions</a></li>
               </ul>
             </div>
             
