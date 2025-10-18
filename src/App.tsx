@@ -142,8 +142,8 @@ function App() {
       'Select your budget': 'Sélectionnez votre budget',
       'Website Only ($100-150)': 'Site web seulement (100$-150$)',
       'Website + AI Ads ($500-650)': 'Site web + Publicités IA (500$-650$)',
-      'Website + Sales Funnel (1000$-1500$)': 'Site web + Sales Funnel (1000$-1500$)',
-      'Full AI Infrastructure ($1000-1500)': 'Infrastructure IA complète (1000$-1500$)',
+      'Website + Sales Funnel (1000$-1500$)': 'Site web + Entonnoir de Vente (1000$-1500$)',
+      'Custom AI Solution (Contact for quote)': 'Solution IA Sur Mesure (Sur devis)',
       'Custom (Let\'s discuss)': 'Personnalisé (Discutons-en)',
       'Your message': 'Votre message',
       'Tell us about your business and goals...': 'Parlez-nous de votre entreprise et de vos objectifs...',
@@ -616,8 +616,8 @@ function App() {
                   <select id="budget" name="budget" required>
                     <option value="">Select your budget</option>
                     <option value="Website Only (300$)">Website Only (300$)</option>
-                    <option value="Website + Sales Funnel (500$-650$)">Website + Sales Funnel (500$-650$)</option>
-                    <option value="AI Solution Sur Mesure (Sur devis)">AI Solution Sur Mesure (Sur devis)</option>
+                    <option value="Website + Sales Funnel (1000$-1500$)">Website + Sales Funnel (1000$-1500$)</option>
+                    <option value="Custom AI Solution (Contact for quote)">Custom AI Solution (Contact for quote)</option>
                     <option value="Custom (Let's discuss)">Custom (Let's discuss)</option>
                   </select>
                 </div>
