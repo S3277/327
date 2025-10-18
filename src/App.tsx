@@ -45,12 +45,16 @@ function App() {
       'Website + SEO': 'Site web + SEO',
       'Turn visitors into paying customers.': 'Transformez les visiteurs en clients payants.',
       'Our websites don\'t just look pretty - they\'re conversion machines that capture leads and drive sales 24/7.': 'Nos sites web ne sont pas seulement beaux - ce sont des machines de conversion qui capturent des prospects et génèrent des ventes 24h/24 et 7j/7.',
-      'Automated Sales Funnels': 'Sales Funnel Automatisées',
-      'Transform visitors into customers automatically.': 'Transformez vos visiteurs en clients automatiquement.',
-      'Our intelligent sales funnels guide your prospects step by step to purchase, without manual intervention.': 'Nos funnels de vente intelligents guident vos prospects étape par étape jusqu\'à l\'achat, sans intervention manuelle.',
+      'AI-Powered Ads': 'Publicités alimentées par l\'IA',
+      'AI-Powered Ads': 'Publicités alimentées par l\'IA',
+      'Stop wasting money on ads that don\'t work.': 'Arrêtez de gaspiller de l\'argent sur des publicités qui ne fonctionnent pas.',
+      'Our AI finds your perfect customers and creates ads that convert, automatically optimizing to maximize every dollar you spend.': 'Notre IA trouve vos clients parfaits et crée des publicités qui convertissent, optimisant automatiquement pour maximiser chaque dollar que vous dépensez.',
       'AI Agents': 'Agents IA',
       'Never miss a sale again.': 'Ne ratez plus jamais une vente.',
       'Our AI agents work around the clock, answering questions, booking appointments, and qualifying leads while you focus on growing your business.': 'Nos agents IA travaillent 24h/24, répondent aux questions, prennent des rendez-vous et qualifient les prospects pendant que vous vous concentrez sur la croissance de votre entreprise.',
+      'Analytics & Monitoring': 'Analyses et surveillance',
+      'Know exactly what\'s making you money.': 'Sachez exactement ce qui vous fait gagner de l\'argent.',
+      'See which campaigns, pages, and strategies are driving real results with crystal-clear analytics that actually matter.': 'Voyez quelles campagnes, pages et stratégies génèrent de vrais résultats avec des analyses cristallines qui comptent vraiment.',
       
       // Features grid content
       'Turn visitors into paying customers.': 'Transformez les visiteurs en clients payants.',
@@ -136,9 +140,9 @@ function App() {
       'AI infrastructure for businesses that want to grow.': 'Infrastructure IA pour les entreprises qui veulent grandir.',
       'Services': 'Services',
       'Website Development': 'Développement de sites web',
-      'AI-Powered Advertising': 'Publicité alimentée par l\'IA',
+      'Automated Sales Funnels': 'Sales Funnel Automatisées',
       'AI Agents & Chatbots': 'Agents IA et chatbots',
-      'Analytics & Monitoring': 'Analyses et surveillance',
+      'Custom AI Solutions': 'Solutions IA Personnalisées',
       'Email: hello@327.io': 'Email: hello@327.io',
       'Response time: < 24 hours': 'Temps de réponse : < 24 heures',
       '© 2024 327.io. All rights reserved.': '© 2024 327.io. Tous droits réservés.'
@@ -494,7 +498,7 @@ function App() {
                   <li>3-day turnaround</li>
                 </ul>
                 <button className="btn btn-primary pricing-cta" data-budget="Website Only">
-                  <span>Order Website — $300</span>
+                  <span data-en="Order Website — $300" data-fr="Commander Website — 300$">Commander Website — 300$</span>
                   <div className="btn-shine"></div>
                 </button>
                 <div className="card-glow"></div>
@@ -632,9 +636,9 @@ function App() {
               <h4>Services</h4>
               <ul>
                 <li><a href="#features">Website Development</a></li>
-                <li><a href="#features">Sales Funnel Automatisées</a></li>
+                <li><a href="#features">Automated Sales Funnels</a></li>
                 <li><a href="#features">AI Agents & Chatbots</a></li>
-                <li><a href="#features">Solutions IA Personnalisées</a></li>
+                <li><a href="#features">Custom AI Solutions</a></li>
               </ul>
             </div>
             
