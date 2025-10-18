@@ -320,7 +320,7 @@ function App() {
       <header>
         <nav>
           <a href="#" className="logo">
-            <span className="logo-text">327</span>
+            <span className="logo-text">tri</span>
             <div className="logo-glow"></div>
           </a>
           
@@ -410,10 +410,6 @@ function App() {
                 <h4>7 days</h4>
                 <p>Average delivery time</p>
               </div>
-              <div className="stat-item counter" data-target="50">
-                <h4>50+</h4>
-                <p>Businesses transformed</p>
-              </div>
               <div className="stat-item counter" data-target="24">
                 <h4>24/7</h4>
                 <p>AI systems monitoring</p>
@@ -448,8 +444,8 @@ function App() {
                   <path d="M20 30L27 37L42 22" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                   <path d="M10 20L15 15M50 20L45 15M10 40L15 45M50 40L45 45" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
-                <h3>AI-Powered Ads</h3>
-                <p><strong>Stop wasting money on ads that don't work.</strong> Our AI finds your perfect customers and creates ads that convert, automatically optimizing to maximize every dollar you spend.</p>
+                <h3>Sales Funnel Automatisées</h3>
+                <p><strong>Transformez vos visiteurs en clients automatiquement.</strong> Nos funnels de vente intelligents guident vos prospects étape par étape jusqu'à l'achat, sans intervention manuelle.</p>
                 <div className="feature-glow"></div>
               </div>
               
@@ -490,7 +486,7 @@ function App() {
             <div className="pricing-grid">
               <div className="pricing-card hover-lift" data-budget="Website Only">
                 <h3>Website Only</h3>
-                <div className="price">$100-150</div>
+                <div className="price">300$</div>
                 <ul>
                   <li>Responsive website design</li>
                   <li>Contact form integration</li>
@@ -499,44 +495,44 @@ function App() {
                   <li>3-day turnaround</li>
                 </ul>
                 <button className="btn btn-primary pricing-cta" data-budget="Website Only">
-                  <span>Order Website — $100+</span>
+                  <span>Commander Website — 300$</span>
                   <div className="btn-shine"></div>
                 </button>
                 <div className="card-glow"></div>
               </div>
               
-              <div className="pricing-card hover-lift" data-budget="Website + AI Ads">
-                <h3>Website + AI Ads</h3>
+              <div className="pricing-card hover-lift" data-budget="Website + Sales Funnel">
+                <h3>Website + Sales Funnel</h3>
                 <div className="price">$500-650</div>
                 <ul>
                   <li>Everything in Website Only</li>
-                  <li>2 AI-optimized ad campaigns</li>
-                  <li>A/B copy variants testing</li>
-                  <li>Conversion tracking setup</li>
+                  <li>Sales funnel automatisé</li>
+                  <li>Email marketing automation</li>
+                  <li>Lead nurturing sequences</li>
                   <li>2 revisions included</li>
                   <li>7-day timeline</li>
                 </ul>
-                <button className="btn btn-primary pricing-cta" data-budget="Website + AI Ads">
-                  <span>Order Website + Ads — $500+</span>
+                <button className="btn btn-primary pricing-cta" data-budget="Website + Sales Funnel">
+                  <span>Commander Website + Funnel — 500$+</span>
                   <div className="btn-shine"></div>
                 </button>
                 <div className="card-glow"></div>
               </div>
               
-              <div className="pricing-card best-value hover-lift pulse" data-budget="Full AI Infrastructure">
-                <h3>Full AI Infrastructure</h3>
-                <div className="price">$1000-1500</div>
+              <div className="pricing-card best-value hover-lift pulse" data-budget="AI Solution Sur Mesure">
+                <h3>AI Solution Sur Mesure</h3>
+                <div className="price">Sur devis</div>
                 <ul>
-                  <li>Website + AI ad campaigns</li>
+                  <li>Website + Sales funnel</li>
                   <li>Custom AI chatbot/agents</li>
                   <li>Automation workflows</li>
                   <li>Analytics dashboard</li>
                   <li>Training & onboarding</li>
                   <li>4 revisions included</li>
-                  <li>14-day timeline</li>
+                  <li>Timeline personnalisé</li>
                 </ul>
-                <button className="btn btn-primary pricing-cta" data-budget="Full AI Infrastructure">
-                  <span>Get Full AI Infrastructure — $1000+</span>
+                <button className="btn btn-primary pricing-cta" data-budget="AI Solution Sur Mesure">
+                  <span>Demander un devis</span>
                   <div className="btn-shine"></div>
                 </button>
                 <div className="card-glow premium"></div>
@@ -601,9 +597,9 @@ function App() {
                   <label htmlFor="budget">Budget Range</label>
                   <select id="budget" name="budget" required>
                     <option value="">Select your budget</option>
-                    <option value="Website Only ($100-150)">Website Only ($100-150)</option>
-                    <option value="Website + AI Ads ($500-650)">Website + AI Ads ($500-650)</option>
-                    <option value="Full AI Infrastructure ($1000-1500)">Full AI Infrastructure ($1000-1500)</option>
+                    <option value="Website Only (300$)">Website Only (300$)</option>
+                    <option value="Website + Sales Funnel (500$-650$)">Website + Sales Funnel (500$-650$)</option>
+                    <option value="AI Solution Sur Mesure (Sur devis)">AI Solution Sur Mesure (Sur devis)</option>
                     <option value="Custom (Let's discuss)">Custom (Let's discuss)</option>
                   </select>
                 </div>
@@ -629,7 +625,7 @@ function App() {
         <div className="container">
           <div className="footer-content">
             <div className="footer-section">
-              <h4>327.io</h4>
+              <h4>tri.io</h4>
               <p>AI infrastructure for businesses that want to grow.</p>
             </div>
             
@@ -637,7 +633,7 @@ function App() {
               <h4>Services</h4>
               <ul>
                 <li><a href="#features">Website Development</a></li>
-                <li><a href="#features">AI-Powered Advertising</a></li>
+                <li><a href="#features">Sales Funnel Automatisées</a></li>
                 <li><a href="#features">AI Agents & Chatbots</a></li>
                 <li><a href="#features">Analytics & Monitoring</a></li>
               </ul>
@@ -645,13 +641,13 @@ function App() {
             
             <div className="footer-section">
               <h4>Contact</h4>
-              <p>Email: hello@327.io</p>
+              <p>Email: hello@tri.io</p>
               <p>Response time: &lt; 24 hours</p>
             </div>
           </div>
           
           <div className="footer-bottom">
-            <p>&copy; 2024 327.io. All rights reserved.</p>
+            <p>&copy; 2024 tri.io. All rights reserved.</p>
           </div>
         </div>
       </footer>
