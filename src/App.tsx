@@ -127,6 +127,7 @@ function App() {
       'Select your budget': 'Sélectionnez votre budget',
       'Website Only ($100-150)': 'Site web seulement (100$-150$)',
       'Website + AI Ads ($500-650)': 'Site web + Publicités IA (500$-650$)',
+      'Website + Sales Funnel (1000$-1500$)': 'Site web + Sales Funnel (1000$-1500$)',
       'Full AI Infrastructure ($1000-1500)': 'Infrastructure IA complète (1000$-1500$)',
       'Custom (Let\'s discuss)': 'Personnalisé (Discutons-en)',
       'Your message': 'Votre message',
@@ -463,12 +464,14 @@ function App() {
               
               <div className="feature-card fade-in hover-lift">
                 <svg className="feature-icon" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect x="10" y="10" width="40" height="30" rx="3" stroke="currentColor" strokeWidth="2"/>
-                  <path d="M15 20L30 25L45 20M15 25L30 30L45 25M15 30L30 35L45 30" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  <circle cx="30" cy="50" r="5" stroke="currentColor" strokeWidth="2"/>
+                  <path d="M30 10C35 10 40 15 40 20V30C40 35 35 40 30 40C25 40 20 35 20 30V20C20 15 25 10 30 10Z" stroke="currentColor" strokeWidth="2"/>
+                  <path d="M15 25L30 30L45 25M30 40V50" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+                  <circle cx="25" cy="20" r="2" fill="currentColor"/>
+                  <circle cx="35" cy="20" r="2" fill="currentColor"/>
+                  <path d="M25 50H35" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
-                <h3>Analytics & Monitoring</h3>
-                <p><strong>Know exactly what's making you money.</strong> See which campaigns, pages, and strategies are driving real results with crystal-clear analytics that actually matter.</p>
+                <h3>Solutions IA Personnalisées</h3>
+                <p><strong>Éliminez les points de friction de votre entreprise.</strong> Nous analysons vos processus et créons des solutions IA sur mesure pour automatiser vos tâches répétitives et optimiser vos opérations.</p>
                 <div className="feature-glow"></div>
               </div>
             </div>
@@ -495,7 +498,7 @@ function App() {
                   <li>3-day turnaround</li>
                 </ul>
                 <button className="btn btn-primary pricing-cta" data-budget="Website Only">
-                  <span>Commander Website — 300$</span>
+                  <span data-en="Order Website — $300" data-fr="Commander Website — 300$">Commander Website — 300$</span>
                   <div className="btn-shine"></div>
                 </button>
                 <div className="card-glow"></div>
@@ -503,7 +506,7 @@ function App() {
               
               <div className="pricing-card hover-lift" data-budget="Website + Sales Funnel">
                 <h3>Website + Sales Funnel</h3>
-                <div className="price">$500-650</div>
+                <div className="price">1000$-1500$</div>
                 <ul>
                   <li>Everything in Website Only</li>
                   <li>Sales funnel automatisé</li>
@@ -513,7 +516,7 @@ function App() {
                   <li>7-day timeline</li>
                 </ul>
                 <button className="btn btn-primary pricing-cta" data-budget="Website + Sales Funnel">
-                  <span>Commander Website + Funnel — 500$+</span>
+                  <span data-en="Order Website + Funnel — $1000+" data-fr="Commander Website + Funnel — 1000$+">Commander Website + Funnel — 1000$+</span>
                   <div className="btn-shine"></div>
                 </button>
                 <div className="card-glow"></div>
@@ -532,7 +535,7 @@ function App() {
                   <li>Timeline personnalisé</li>
                 </ul>
                 <button className="btn btn-primary pricing-cta" data-budget="AI Solution Sur Mesure">
-                  <span>Demander un devis</span>
+                  <span data-en="Get Custom Quote" data-fr="Demander un devis">Demander un devis</span>
                   <div className="btn-shine"></div>
                 </button>
                 <div className="card-glow premium"></div>
@@ -635,7 +638,7 @@ function App() {
                 <li><a href="#features">Website Development</a></li>
                 <li><a href="#features">Sales Funnel Automatisées</a></li>
                 <li><a href="#features">AI Agents & Chatbots</a></li>
-                <li><a href="#features">Analytics & Monitoring</a></li>
+                <li><a href="#features">Solutions IA Personnalisées</a></li>
               </ul>
             </div>
             
