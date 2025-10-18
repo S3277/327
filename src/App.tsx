@@ -74,6 +74,9 @@ function App() {
       'Never miss a sale again. Our AI agents work around the clock, answering questions, booking appointments, and qualifying leads while you focus on growing your business.': 'Ne ratez plus jamais une vente. Nos agents IA travaillent 24h/24, répondent aux questions, prennent des rendez-vous et qualifient les prospects pendant que vous vous concentrez sur la croissance de votre entreprise.',
       'Know exactly what\'s making you money. See which campaigns, pages, and strategies are driving real results with crystal-clear analytics that actually matter.': 'Sachez exactement ce qui vous fait gagner de l\'argent. Voyez quelles campagnes, pages et stratégies génèrent de vrais résultats avec des analyses cristallines qui comptent vraiment.',
       
+      // Missing feature descriptions
+      'Eliminate your business friction points. We analyze your processes and create custom AI solutions to automate repetitive tasks and optimize your operations.': 'Éliminez les points de friction de votre entreprise. Nous analysons vos processus et créons des solutions IA personnalisées pour automatiser les tâches répétitives et optimiser vos opérations.',
+      
       // Pricing
       'SIMPLE PRICING, MASSIVE RESULTS': 'TARIFICATION SIMPLE, RÉSULTATS MASSIFS',
       'No hidden fees. No long contracts. Just results that pay for themselves.': 'Pas de frais cachés. Pas de longs contrats. Juste des résultats qui se paient d\'eux-mêmes.',
