@@ -336,7 +336,7 @@ function App() {
       <header>
         <nav>
           <a href="#" className="logo">
-            <span className="logo-text">TriFa</span>
+            <span className="logo-text">327.io</span>
             <div className="logo-glow"></div>
           </a>
           
@@ -643,7 +643,7 @@ function App() {
         <div className="container">
           <div className="footer-content">
             <div className="footer-section">
-              <h4>tri.io</h4>
+              <h4>327.io</h4>
               <p>AI infrastructure for businesses that want to grow.</p>
             </div>
             
@@ -659,13 +659,13 @@ function App() {
             
             <div className="footer-section">
               <h4>Contact</h4>
-              <p>Email: hello@trifa.io</p>
+              <p>Email: hello@327.io</p>
               <p>Response time: &lt; 24 hours</p>
             </div>
           </div>
           
           <div className="footer-bottom">
-            <p>&copy; 2024 TriFa.io. All rights reserved.</p>
+            <p>&copy; 2024 327.io. All rights reserved.</p>
           </div>
         </div>
       </footer>
